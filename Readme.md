@@ -43,7 +43,7 @@ sh view-allure-report.sh
 │   ├── MainFormTest.feature
 │   ├── environment.py : bahave 가 실행되기전과 후에 Appium 을 구동시켜주는 파일
 │   └── steps
-│       └── Livness.py
+│       └── 
 ├── pages : 페이지별 화면기능에 대한 파일들 Appium 화면정의 들을 지정해논 파일
 │   ├── MainPage.py  : 메인페이지
 │   └── elements.py  : 각페이지의 Xpath, class, Accessbility id 값들을 모아놓은 파일
