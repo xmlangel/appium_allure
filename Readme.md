@@ -36,26 +36,6 @@ sh view-allure-report.sh
 ```
 
 # 파일구조
-├── apps : apk,ipa 파일위치
-├── base : appium Element 관련 파일들
-│   └── BasePage.py
-├── features : bahave 관련 파일들 *.feature BDD 형식
-│   ├── MainFormTest.feature
-│   ├── environment.py : bahave 가 실행되기전과 후에 Appium 을 구동시켜주는 파일
-│   └── steps
-│       └── 
-├── pages : 페이지별 화면기능에 대한 파일들 Appium 화면정의 들을 지정해논 파일
-│   ├── MainPage.py  : 메인페이지
-│   └── elements.py  : 각페이지의 Xpath, class, Accessbility id 값들을 모아놓은 파일
-├── reports : 리포트 위치 allure, 및 실행레코딩파일워치(mp4), 실패시 png 파일 생성 된파일
-    ├──allureReports
-        ├──*.json
-    ├──*.mp4
-    ├──*.png
-├── utilities : 유틸위치(로그)
-    └── CustomLogger.py : 로그생성용 python 파일
-├── requirements.txt : python pip 패키지
-├── run-appium.sh : appium 실행 파일
-├── run-behave.sh : behave 실행 파일
-├── run-allure.sh : allure 생성 파일
+<img width="615" alt="image" src="https://github.com/xmlangel/appium_allure/assets/8622992/b46fd515-474f-43a3-904f-dbc74619087b">
+
 # appium_allure
