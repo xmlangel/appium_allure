@@ -9,11 +9,11 @@ class MainPage(BasePage):
     
     def click_main_form_button(self):
         BasePage.click_elements_by_xpath(self, el.button_liveness)
-        cl.allure_logs("클릭 라이브니스 버튼")
+        cl.allure_logs("클릭 버튼")
     
     def click_main_form_id_verification_button(self):
         BasePage.click_elements_by_xpath(self, el.button_id_verification)
-        cl.allure_logs("클릭 신분증본인확인 버튼")
+        cl.allure_logs("클릭 버튼2")
     
     def terimnate_app(self):
         BasePage.terminate_app(self)
